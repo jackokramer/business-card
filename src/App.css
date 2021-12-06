@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: slategray;
 }
 
 .App-logo {
@@ -34,5 +35,153 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.container {
+  max-width: 70%;
+  max-height: 90%;
+  background: #23252c;
+  padding: 100px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  background: slategray;
+  border-radius: 5px;
+}
+
+/* Header */
+.LinkedIn {
+  margin-left: 1.3rem;
+  color: aliceblue;
+  background: skyblue;
+}
+
+.Email {
+  background: aliceblue;
+  color: #333;
+}
+.envelope {
+  color: #000;
+}
+
+.Email,
+.LinkedIn {
+  text-decoration: none;
+  padding: 1rem 1.4rem;
+  border-radius: 0.75rem;
+}
+
+.LinkedIn:hover {
+  color: black;
+  background: crimson;
+}
+
+.Email:hover {
+  color: black;
+  background: crimson;
+}
+
+.photo {
+  height: 90%;
+  max-width: 80%;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.portfolio {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.name {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #f3bf99;
+  text-transform: italic;
+}
+
+/* About - Main */
+
+.about p {
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.about-me-title {
+  text-align: left;
+  margin-left: 30px;
+}
+.about {
+  background: slategray;
+  padding: 30px;
+}
+
+/* footer */
+
+.social-list_item {
+  list-style-type: none;
+  text-align: center;
+  margin-left: 8rem;
+}
+
+.social-list__link {
+  text-align: center;
+  color: inherit;
+}
+
+.social-list__link:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+footer {
+  color: aliceblue;
+  background: #111;
+  text-align: center;
+  text-transform: italic;
+  padding: 20px 100px;
+  max-width: 900px;
+}
+
+.socially {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 2em 0;
+  padding: 20px;
+}
+
+.smalls {
+  margin-bottom: 10px;
+}
+
+@media (max-width) {
+  /* main */
+  .about {
+    max-width: 400px;
+  }
+  .about p {
+    font-size: 0.75rem;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .about-me-title {
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  /* footer */
+  footer {
+    max-width: 100%;
   }
 }
